@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+a {
+    text-decoration:none;
+}
+
+.header {
+    height:60px;
+    display:flex;
+    justify-content:none;
+    padding:1.5% 2.5% 1.5% 10%;
+    background-image:url("../imgs/bg-pink-stripe.png");
+    background-size:auto;
+    background-repeat:repeat;
+    background-color:pink;
+    background-blend-mode:multiply;
+}
+
+.home_logo {
+    max-height:100%;
+    width:150px;
+}
+.account {
+    max-height:100%;
+    width:64px;
+    margin-left:30px;
+}
+
+.menu {
+    display:flex;
+    list-style:none;
+}
+
+.menu li {
+    margin-left:30px;
+}
+
+.menu li a {
+    color:#ffffff;
+    font-size:18px;
+    font-family:"源泉圓體";
+}
+
+.menu li a:hover {
+    color:#ebe42c;
+}
+
+.dropdown_item {
+    border-radius:5px;
+    background-color:white;
+}
+
+.background {
+    width:100%;
+    height:auto;
+    background-image:url("../imgs/bg-pattern.png");
+    background-size:auto;
+    background-repeat:repeat;
+}
+
+.info_table {
+    color:#628eff;
+    font-size:25px;
+    font-family:"源泉圓體";
+}
+
+.info_table img {
+    margin-left:200px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.tail {
+    height:80px;
+    padding:25px;
+    background-image:url("../imgs/bg-pink-stripe.png");
+    background-size:auto;
+    background-repeat:repeat;
+    background-color:pink;
+    background-blend-mode:multiply;
+    font-family:'Zen Maru Gothic', sans-serif;
+}
+
+.twitter {
+    display:flex;
+    width:230px;
+    height:30px;
+    border-radius:5px;
+    background-color:#ffffff
+}
+
+.twitter_img {
+    max-height:100%;
+    border-radius:5px 0px 0px 5px;
+}
+
+.twitter_url {
+    margin:2px 5px 0px 10px;
+    color:#00aced;
+}
+
+.official_web {
+    margin-top:20px;
+    display:flex;
+    width:230px;
+    height:30px;
+    border-radius:5px;
+    background-color:#ffffff
+}
+
+.official_web_img {
+    max-height:100%;
+    border-radius:5px 0px 0px 5px;
+}
+
+.official_web_url {
+    margin:2px 5px 0px 12px;
+    color:#ed3f82;
+}

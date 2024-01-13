@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+a {
+    text-decoration:none;
+}
+
+.header {
+    height:60px;
+    display:flex;
+    justify-content:none;
+    padding:1.5% 2.5% 1.5% 10%;
+    background-image:url("../imgs/bg-pink-stripe.png");
+    background-size:auto;
+    background-repeat:repeat;
+    background-color:pink;
+    background-blend-mode:multiply;
+}
+
+.home_logo {
+    max-height:100%;
+    width:150px;
+}
+
+.account {
+    max-height:100%;
+    width:64px;
+    margin-left:30px;
+}
+
+.menu {
+    display:flex;
+    list-style:none;
+}
+
+.menu li {
+    margin-left:30px;
+}
+
+.menu li a {
+    color:#ffffff;
+    font-size:18px;
+    font-family:"源泉圓體";
+}
+
+.menu li a:hover {
+    color:#ebe42c;
+}
+
+.dropdown_item {
+    border-radius:5px;
+    background-color:white;
+}
+
+.background {
+    width:100%;
+    height:auto;
+    background-image:url("../imgs/bg-pattern.png");
+    background-size:auto;
+    background-repeat:repeat;
+}
+
+.cover {
+    display:flex;
+    justify-content:space-between;
+    margin:30px 200px 30px 110px;
+    text-align:center;
+}
+
+.cover_img {
+    max-height:100%;
+    width:40%;
+    height:40%;
+    animation: anime 5s infinite;
+}
+
+.cover h1 {
+    margin-top:150px;
+    margin-bottom:50px;
+    font-size:35px;
+    font-family:"源泉圓體";
+}
+
+.button {
+    padding:15px 18px 15px 18px;
+    border-radius:15px;
+    background-color:#ed3f82;
+    border-style:solid;
+    border-width:thick;
+    border-color:#ffffff;
+    box-shadow:5px 5px rgba(0,0,0,0.5);
+    font-size:25px;
+    font-family:"源泉圓體";
+    color:#ffffff;
+}
+
+.button:hover {
+    color:#ebe42c;
+    cursor:pointer;
+}
+
+.introduct {
+    display:flex;
+    margin:95px 0px 40px 40px;
+}
+
+h2{
+    margin:0px;
+}
+
+h3 {
+    margin:0px 0px 30px 0px;
+    font-family:"源泉圓體";
+}
+
+.intro_txt {
+    display:block;
+    margin:auto;
+    padding:15px;
+    line-height:1.5;
+    font-size:25px;
+    font-family:"源泉圓體";
+}
+
+.ability_quiz {
+    margin:10% 0px;
+    text-align:center;
+    font-size:200%;
+    font-family:"源泉圓體";
+}
+
+.quiz_img {
+    max-width:60%;
+    border-radius:15px;
+}
+
+.tail {
+    height:80px;
+    padding:25px;
+    background-image:url("../imgs/bg-pink-stripe.png");
+    background-size:auto;
+    background-repeat:repeat;
+    background-color:pink;
+    background-blend-mode:multiply;
+    font-family:'Zen Maru Gothic', sans-serif;
+}
+
+.twitter {
+    display:flex;
+    width:230px;
+    height:30px;
+    border-radius:5px;
+    background-color:#ffffff
+}
+
+.twitter_img {
+    max-height:100%;
+    border-radius:5px 0px 0px 5px;
+}
+
+.twitter_url {
+    margin:2px 5px 0px 10px;
+    color:#00aced;
+}
+
+.official_web {
+    margin-top:20px;
+    display:flex;
+    width:230px;
+    height:30px;
+    border-radius:5px;
+    background-color:#ffffff
+}
+
+.official_web_img {
+    max-height:100%;
+    border-radius:5px 0px 0px 5px;
+}
+
+.official_web_url {
+    margin:2px 5px 0px 12px;
+    color:#ed3f82;
+}
+
+@keyframes anime {
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(30px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
